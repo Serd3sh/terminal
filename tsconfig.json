@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"outDir": "./js",
+		"moduleResolution": "node16",
+		"module": "node16",
+		"target": "es2024",
+		"strict": true,
+		"rootDir": "./src",
+		"types": ["node", "./types/main.d.ts"],
+		"declaration": true,
+	},
+	"include": [
+		"./src",
+		"./types"
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "terminal",
+  "version": "1.0",
+  "main": "./js/index.js",
+  "author": {
+    "name": "Serdesh",
+    "email": "romarius543@mail.ru"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "node": "^25.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2"
+  },
+  "exports": {
+    "import": {
+      "types": "./js/index.d.ts",
+      "default": "./js/index.js"
+    },
+    "require": {
+      "types": "./js/index.d.ts",
+      "default": "./js/index.js"
+    }
+  },
+  "scripts": {
+    "start": "tsc & node js/index.js"
+  }
+}
